@@ -2,6 +2,7 @@ FROM debian:bookworm
 
 LABEL author="Alex Fabre"
 LABEL description="Build MPLAB X projects with XC8"
+LABEL org.opencontainers.image.description "Build MPLAB X projects with XC8"
 
 ARG MPLABX_VERSION=6.20
 ARG XC8_VERSION=2.46
